@@ -8,6 +8,10 @@ const year = document.querySelector("#year");
 const info = document.querySelector("h2");
 
 
+/**
+ * The main function, what users will see.
+ */
+
 ageButton.addEventListener('click',  (e) => {
 
     e.preventDefault();
@@ -22,9 +26,7 @@ ageButton.addEventListener('click',  (e) => {
         
     }
     name.value = "";
-    year.value = "";
-
-    
+    year.value = "";    
 
 });
 
