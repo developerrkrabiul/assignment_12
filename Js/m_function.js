@@ -22,6 +22,9 @@ m_check.addEventListener('click', () => {
 
         m_output.innerHTML = agechack (m_name.value, m_date.value)
     }
+    m_name.value = "";
+    m_gender.value = "";
+    m_date.value = ""; 
     
 });
 
